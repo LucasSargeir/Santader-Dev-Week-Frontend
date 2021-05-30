@@ -1,27 +1,47 @@
-# BootcampFrontend
+# Santander Dev Week - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+O Santander Dev Week é um evento de tecnologia que tem como objetivo compatilhar conhecimento das tecnologias utilizadas pela empresa nos seus projetos.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Frontend
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O _frontend_ da aplicação foi feito em JavaScript, utilizando o framework Angular. O objetivo dessa parte do projeto foi montar uma página que pudesse consumir a API REST produzida pelo [_backend_](https://github.com/LucasSargeir/Santader-Dev-Week-Backend) e aprender os conceitos do framework.
 
-## Build
+Esse projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) versão 12.0.2.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Utilização
 
-## Running end-to-end tests
+Acesse a página clicando [aqui](https://lucassargeir.github.io/Santader-Dev-Week-Frontend/).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Local
+
+Para rodar o projeto localmente, clone o repositório:
+
+```bash
+git clone https://github.com/LucasSargeir/Santader-Dev-Week-Frontend.git
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor local:
+
+```bash
+npm run start
+```
+
+> Obs.: Se a página não abrir automaticamente acesse a mesma clicando [aqui](http://localhost:4200).
+
+
+
+## Visual
+
+![image-20210529225637531](./images/page.png)
